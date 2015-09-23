@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+	<html>
+		<head>
+		<meta charset="utf-8">
+		<meta charset="utf-10">
+		<script>
+ 
+ function validaCampo ()
+ {
+     if (document.formulario.Nome.value=="")
+     {
+         alert ("Por favor digite o nome.");
+		 document.formulario.Nome.focus();
+         return false;
+	}
+	 else     
+		return true;
+	}
+
+	</script>
+	</head>
+	<body>
+	<form id="formulario" name="formulario" method="post"  onSubmit="return validaCampo();">
+		<table>	
+		<tr>
+				<div class="form-control"></div>
+					<td><label>Nome:</label></td>
+					<td><input name="Nome" type="text" placeholder="Nome" class="name" required="required"> &nbsp Este campo tem aviso</td>
+				</div>
+				</tr>
+		<tr>
+				<div class="form-control" id="nome2">
+					<td><label>Nome:</label></td> 
+					<td><input  type="text" placeholder="Nome" class="name2"> &nbsp Este campo não tem aviso </td>
+				</div>
+				</tr>
+		<tr>
+				<div class="form-control" id="sobrenome">
+					<td><label>Sobrenome:</label></td> 
+					<td><input type="text" name="txtNome"  placeholder="Sobrenome" class="sobrenome"></td>
+				</div>
+				</tr>
+		<tr>
+				<div class="form-control" id="rg">
+					<td><label>Rg:</label></td> 
+					<td><input type="text" maxlength="10" placeholder="Ex:00.000.000-0" class="rg"> &nbsp Este campo tem limite de caracters (10)</td>
+				</div>	
+		</tr>
+		<tr>
+				<div class="form-control" id="cpf">
+					<td><label>Cpf:</label></td> 
+					<td><input type="text" maxlength="11" placeholder="Ex:000.000.000-00" class="cpf"> &nbsp Este campo tem limite de caracters (11)</td>
+				</div>
+		</tr>
+		<tr>
+				<div class="form-control6" id="email">
+					<td><label>E-mail:</label></td> 
+					<td><input type="email" name="txtE-mail"   placeholder="E-mail" class="email"></td>
+				</div>
+				
+				<div class="form-control6" id="date">
+					<td><label>Data:</label></td> 
+					<td><input type="date" name="txtDate"   class="email"></td>
+				</div>
+				
+				<div class="form-control6" id="number">
+					<td><label>Número:</label></td> 
+					<!-- campo número
+						step: coloca o passo que o número irá aumentar, se for de 2 em 2, no step colocar 2.
+						min: número mínimo que esse campo irá aceitar.
+						max: número máximo que esse campo irá aceitar.
+					-->
+					<td><input type="number" name="txtNumber" step="0.1" min="1" max="5"  class="email"></td>
+				</div>
+				</tr>
+		<tr>
+				<div class="form-control7" id="senha">
+					<td><label> Senha:</label></td> 
+					<td><input type="password" maxlength="8" placeholder="Senha" class="senha"> &nbsp Este campo tem limite de caracters (8)</td>
+				</div>
+		</tr>
+		<tr>		
+			<div class="form-group">
+				<td><label>Escolha um arquivo:</label></td>
+				<td><input type="file"></td> 
+			</div>
+			
+			<div class="form-group">
+				<td><label>Telefone:</label></td>
+				<td><input type="tel" name="Txt-telefone" placeholder="(99)9999-9999"></td> 
+			</div>
+		</tr>
+		<tr>
+			<td>Mensagem: &nbsp <textarea class="form-control" rows="5"></textarea></td>
+		</tr>
+		
+				<div class="checkbox"> <br />
+		</table>					
+				</div> <br />
+					<div id="input">
+					<input type="submit" value="Enviar" name="enviar" class="botaoForm"> &nbsp
+					<button type="submit" class="botao">Botão</button> &nbsp Estilos de botões, dois possiveis estilos a serem utilizados<br /> 
+		<br />
+			<link rel="stylesheet" href="Css/style.css">
+			<div id="fontes"> 
+				Fontes: <font face="verdana">Verdana</font> e <font face="sans-serif"> Sans-serif </font>
+			</div>	
+			<br />
+			Cores:
+			<div id="caixadecor"> #EAEAEA
+			</div>
+			<div id="caixadecor2"> #FFF5C4
+			</div>
+			<div id="caixadecor3"> #FFEFA0</div>
+			<div class="msgErro"> Mensagens de erro devem ser exibidas assim</div>
+			<div class="msgConfirm"> Mensagens de confirmação devem ser exibidas assim</div>
+		</form>
+		</body>
+				

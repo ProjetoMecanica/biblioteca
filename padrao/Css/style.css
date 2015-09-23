@@ -1,0 +1,146 @@
+#caixadecor{
+	text-align: center;
+	width: 7%;
+	height: 4em;
+	border: 2% solid #EAEAEA;
+	background: #EAEAEA;
+}
+#caixadecor2{
+	text-align: center;
+	width: 7%;
+	height: 4em;
+	border: 2% solid #FFF5C4;
+	background: #FFF5C4;	
+}
+#caixadecor3{
+	text-align: center;
+	width: 7%;
+	height: 4em;
+	border: 3% solid #FFEFA0;
+	background: #FFEFA0;	
+}
+form label {
+    font-family:verdana, sans-serif;
+    color: black;
+    font-weight:bold;
+    float:left;
+}
+form input.name {
+	font-family: verdana, sans-serif;	
+    border:thin solid #8A8A8A;
+    padding:1%;
+}
+
+form input.sobrenome {
+	font-family: verdana, sans-serif;
+	color: black;	
+    border:thin solid #8A8A8A;
+    padding:1%;
+}
+form input.name2{
+	font-family: verdana, sans-serif;	
+    border:thin solid #8A8A8A;
+    padding:1%;
+}
+form input.rg {
+	font-family: verdana, sans-serif;
+    border:thin solid #8A8A8A;
+    padding:1%;
+}
+form input.cpf {
+	font-family: verdana, sans-serif;	
+    border:thin solid #8A8A8A;
+    padding:1%;
+}
+form input.email{
+	font-family: verdana, sans-serif;	
+    border:thin solid #8A8A8A;
+    padding:1%;
+}
+form input.senha {
+	font-family: verdana, sans-serif;	
+    border:thin solid #8A8A8A;
+    padding:1%;
+}
+textarea.form-control{
+	border:thin solid #8A8A8A;
+    padding:1%;
+}
+.botaoForm {
+	font-family: verdana, sans-serif;
+    padding:1%;
+    background-color:white;
+    border:thin solid #8A8A8A;
+    color:#8A8A8A;
+    font-weight:bold;
+}
+.botaoForm:hover {
+    padding:1%;
+    background-color:#F0F0F0;
+    border:thin solid #8A8A8A;
+    color:#000;
+    font-weight:bold;
+}
+.botaoForm2 {
+	font-family: verdana, sans-serif;
+    padding:1%;
+    background-color:white;
+    border:thin solid #00B900;
+    color:#00B900;
+    font-weight:bold;
+}
+.botaoForm2:hover {
+    padding:1%;
+    background-color:#00B900;
+    border:thin solid #00B900;
+    color:#fff;
+    font-weight:bold;
+}
+.botaoForm3 {
+	font-family: verdana, sans-serif;
+    padding:1%;
+    background-color:#fff;
+    border:thin solid #BF0000;
+    color:#BF0000;
+    font-weight:bold;
+}
+.botaoForm3:hover {
+    padding:1%;
+    background-color:#BF0000;
+    border:thin solid #BF0000;
+    color:#fff;
+    font-weight:bold;
+}
+.botao {
+	font-family: verdana, sans-serif;
+    padding:1%;
+    background-color:#EAEAEA;
+    border:thin solid #BDBDBD;
+    color:#8A8A8A;
+    font-weight:bold;
+}
+.botao:hover {
+    padding:1%;
+    background-color:#BDBDBD;
+    border:thin solid #BDBDBD;
+    color:#000;
+    font-weight:bold;
+}
+
+.msgErro{
+width:95%;
+border:1px solid #550000;
+padding:1%;
+color:#550000;
+background-color:#D46A6A;
+margin:0.5%;
+}
+
+.msgConfirm{
+width:95%;
+border:1px solid #004304;
+padding:1%;
+color:#004304;
+background-color:#86C98A;
+margin:0.5%;
+}
